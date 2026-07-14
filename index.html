@@ -66,6 +66,8 @@
             border: 2px solid #D90429;
             transition: all 0.3s ease;
             text-transform: uppercase;
+            font-family: inherit; /* تمت الإضافة للحفاظ على الخط */
+            cursor: pointer; /* تمت الإضافة لتفعيل شكل المؤشر */
         }
 
         .cta-button:hover {
@@ -84,6 +86,8 @@
             .cta-button { font-size: 1.2rem; padding: 15px 30px; }
         }
     </style>
+    <!-- تم زرع محرك Tally هنا -->
+    <script async src="https://tally.so/widgets/embed.js"></script>
 </head>
 <body>
 
@@ -96,8 +100,8 @@
             نحن لا نقدم تحفيزاً رخيصاً. نحن نقدم أنظمة هندسية صارمة مبنية على الميكانيكا الحيوية والمنطق المجرد. أدخل بياناتك، واجه عذرك، واستلم بروتوكول التنفيذ الخاص بك.
         </p>
         
-        <!-- ضع رابط Tally.so الخاص بك مكان علامة المربع (#) -->
-        <a href="https://tally.so/r/vGgeaX" class="cta-button">ابدأ التقييم الصارم الآن</a>
+        <!-- تم تحويل الرابط إلى زر يفتح النافذة المنبثقة -->
+        <button data-tally-open="vGgeaX" class="cta-button">ابدأ التقييم الصارم الآن</button>
         
         <div class="footer">
             IronDiscipline © 2026 | نظام الأداء عالي الانضباط
